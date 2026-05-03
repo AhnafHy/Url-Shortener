@@ -2,6 +2,7 @@
 
 A fully serverless URL shortening service built on AWS. Provisioned entirely with Terraform as infrastructure-as-code and deployed via a GitHub Actions CI/CD pipeline. 
 Supports creating short codes from long URLs and redirecting short codes back to their original destination.
+
 ---
 
 ## What It Does

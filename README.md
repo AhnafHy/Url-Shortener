@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/27180265/README.md)
 # Serverless URL Shortener
 
 A fully serverless URL shortening service built on AWS. Provisioned entirely with Terraform as infrastructure-as-code and deployed via a GitHub Actions CI/CD pipeline. 

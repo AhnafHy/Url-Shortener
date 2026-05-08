@@ -103,12 +103,12 @@ Type `yes` when prompted. Terraform will output your API URL when complete.
 
 Shorten a URL:
 ```powershell
-Invoke-WebRequest -Uri "https://ghsulsu9cf.execute-api.us-east-2.amazonaws.com/prod/shorten" -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"url": "https://www.google.com"}'
+Invoke-WebRequest -Uri "YOUR_API_URL" -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"url": "https://www.google.com"}'
 ```
 
 Test the redirect:
 ```powershell
-Invoke-WebRequest -Uri "https://ghsulsu9cf.execute-api.us-east-2.amazonaws.com/prod/{short_code}" -Method GET -MaximumRedirection 0
+Invoke-WebRequest -Uri "YOUR_API_URL" -Method GET -MaximumRedirection 0
 ```
 
 **7. Clean up (avoids AWS charges)**

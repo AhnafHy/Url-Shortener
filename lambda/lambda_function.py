@@ -1,3 +1,7 @@
+# TODO: add input validation for URLs
+# TODO: add rate limiting per IP
+# TODO: store click analytics in DynamoDB
+
 import json
 import os
 import string
